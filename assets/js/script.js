@@ -1,10 +1,14 @@
-// Add Moment function to #currentDay
-function DisplayDate(pFormat)
-{
-    var date = moment().format(pFormat);
+var displayDate = document.getElementById("currentDay");
+var timeBlocksEl = document.getElementById("time-blocks");
 
-    $("#currentDay").text(date);
+// Add Moment function to displayDate
+
+function GetTime() {
+    var CurrentDate = moment().format('dddd, MMMM Do, YYYY');
+    displayDate.innerHTML = CurrentDate;
 }
+setInterval(GetTime, 1000);
+
 
 // // Locks on click
 // // Code forked from : https://codepen.io/skwintz/pen/GQgwbx
