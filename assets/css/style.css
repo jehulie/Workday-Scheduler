@@ -11,7 +11,8 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  /* width: 75%; */
+  width: 80%;
+  display: flex;
 }
 
 .jumbotron {
@@ -29,6 +30,7 @@ textarea{
 #time-blocks {
   text-align: center;
   border-radius: 15px;
+  display: flexbox;
 }
 
 /* How to stretch across the page? */
@@ -43,6 +45,8 @@ textarea{
   color: #000000;
   border-top: 1px dashed #000000;
   width: 90px;
+  padding-top: 10px;
+  margin-left:50px;
 }
 
 .clearBtn {
@@ -155,35 +159,3 @@ textarea{
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-/* Locked Hover */
-/* Code forked from : https://codepen.io/skwintz/pen/GQgwbx */
-/* .lock:hover:before {
-  height: 12px;
-}
-/* Unlocked */
-/* .unlocked { */
-  /* transform: rotate(10deg); */
-/* } */
-/* .unlocked:before { */
-  /* bottom: 130%; */
-  /* left: 31%; */
-  /* margin-left: -11.5px; */
-  /* transform: rotate(-45deg); */
-/* } */
-/* .unlocked, */
-/* .unlocked:before { */
-  /* border-color: var(--unlocked-color); */
-/* } 
-/* .unlocked:after { */
-  /* background: var(--unlocked-color); */
-/* } */
-/* Unlocked Hover */
-/* .unlocked:hover { */
-  /* transform: rotate(3deg); */
-/* } */
-/* .unlocked:hover:before { */
-  /* height: 10px; */
-  /* left: 40%; */
-  /* bottom: 124%; */
-  /* transform: rotate(-30deg); */
-/* } 
