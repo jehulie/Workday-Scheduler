@@ -78,8 +78,15 @@ $(document).on('click','.saveBtn',function(){
 // The get stored notes function that gets the stored notes and loads them when the page is loaded. ** Not storing right now! **
 function GetStoredNotes() {
     console.log("inside GetStoredNotes");
-    $('#9_am .description').val(localStorage.getItem("9_am"))
-    
+    $('#9_am .description').val(localStorage.getItem("9_am"));
+    $('#10_am .description').val(localStorage.getItem("10_am"));
+    $('#11_am .description').val(localStorage.getItem("11_am"));
+    $('#12_pm .description').val(localStorage.getItem("12_pm"));
+    $('#1_pm .description').val(localStorage.getItem("1_pm"));
+    $('#2_pm .description').val(localStorage.getItem("2_pm"));
+    $('#3_pm .description').val(localStorage.getItem("3_pm"));
+    $('#4_pm .description').val(localStorage.getItem("4_pm"));
+    $('#5_pm .description').val(localStorage.getItem("5_pm"));
 }
 
 // The update time block function that updates the color of the blocks.
